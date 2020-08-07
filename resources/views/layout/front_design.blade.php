@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/021bc4dec3aa02d937a51bdfdccc0f4d?family=Blacksword" rel="stylesheet"
+        type="text/css" />
 </head>
 
 <body>
