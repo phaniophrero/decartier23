@@ -1,0 +1,104 @@
+.producer-section {
+    padding: 6rem 0;
+}
+
+.line-left-prod {
+    width: 10rem;
+    height: .1rem;
+    background: linear-gradient(to left, rgba($color-blue-dark, .8), rgba($color-blue, .7));
+    margin-right: 10rem;
+}
+
+.line-right-prod {
+    width: 10rem;
+    height: .1rem;
+    background: linear-gradient(to right, rgba($color-blue-dark, .8), rgba($color-blue, .7));
+    margin-left: 10rem;
+}
+
+.producer-title {
+    font-size: 2.5rem;
+    font-family: isra-regular;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+}
+
+.producer-name-wrapper {
+    width: 90%;
+    height: 10rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .producer-name {
+        font-size: 2rem;
+        font-family: century-gothic;
+        // text-transform: uppercase;
+        letter-spacing: .1rem;
+        color: $color-blue-dark;
+        background-color: $color-blue-dark;
+        background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba($color-white, .6) 5%, rgba($color-white, .6)10%, transparent 10%, transparent 100%);
+        background-size: 200% 100%;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        position: absolute;
+        margin-left: .5rem;
+        animation: producer-spark 8s linear 2s infinite alternate;
+
+        @keyframes producer-spark {
+            0% {
+                background-color: $color-white;
+                background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba($color-white, .6) 5%, rgba($color-white, .6)10%, transparent 10%, transparent 100%);
+                background-size: 200% 100%;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                background-position: -120% 0;
+            }
+
+            20% {
+                color: $color-blue-dark;
+            }
+
+            40% {
+                background-color: $color-white;
+                background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba($color-white, .6) 5%, rgba($color-white, .6)10%, transparent 10%, transparent 100%);
+                background-size: 200% 100%;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                background-position: 120% 0;
+            }
+
+            60% {
+                color: $color-blue-dark;
+            }
+
+            80% {
+                background-color: $color-white;
+                background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba($color-white, .6) 5%, rgba($color-white, .6)10%, transparent 10%, transparent 100%);
+                background-size: 200% 100%;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                background-position: -120% 0;
+            }
+
+            100% {
+                color: $color-white;
+            }
+        }
+    }
+}
+
+
+.producer-wrapper {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: linear-gradient(to left, rgba($color-purple-dark, .5), rgba($color-blue-matte, .4)), url('/images/prod.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}

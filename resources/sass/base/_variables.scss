@@ -1,0 +1,44 @@
+// Fonts
+$quick-sand: "Quicksand",
+sans-serif;
+
+@font-face {
+    font-family: century-gothic;
+    src: url('/fonts/century_gothic.ttf');
+}
+
+@font-face {
+    font-family: blacksword;
+    src: url('/fonts/blacksword.otf');
+}
+
+@font-face {
+    font-family: isra-regular;
+    src: url('/fonts/isra-regular.ttf');
+}
+
+@font-face {
+    font-family: baskerviller;
+    src: url('/fonts/baskerviller.ttf');
+}
+
+// Colors
+$color-black: #000000;
+$color-white: #ffffff;
+
+
+// Color Blue
+$color-blue-dark: #191d32;
+$color-blue: #acc0fe;
+$color-blue2-light: #EEF8F4;
+
+$color-blue2: #00b7bf;
+$colo-roz: #d4008e;
+
+$color-purple-dark: #34006a;
+$color-blue-matte: #00617f;
+
+$color-blue-footer: #04001c;
+
+// Color Red
+$color-red: #d41313;
