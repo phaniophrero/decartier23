@@ -10,6 +10,7 @@
         <ul class="footer-ul footer-ul-right">
             <li class="footer-list"><a class="footer-link" href="">Privacy</a></li>
             <li class="footer-list"><a class="footer-link" href="">Terms</a></li>
+            <li class="footer-list"><a class="footer-link" href="">Contact</a></li>
         </ul>
     </div>
 </footer>
